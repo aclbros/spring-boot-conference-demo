@@ -15,13 +15,13 @@ public class PersistenceConfiguration {
 //    @Value("${spring.datasource.password}")
 //    private String password;
 
-    @Bean
-    public DataSource dataSource() {
-        DataSourceBuilder builder = DataSourceBuilder.create();
-        builder.url("jdbc:postgresql://localhost:5432/conference_app");
-        builder.username("postgres");
-        builder.password("Welcome");
-        System.out.println("datasource called");
-        return builder.build();
-    }
+//    @Bean
+//    public DataSource dataSource() {
+//        DataSourceBuilder builder = DataSourceBuilder.create();
+//        builder.url("jdbc:postgresql://localhost:5432/conference_app");
+//        builder.username("postgres");
+//        builder.password("Welcome");
+//        System.out.println("datasource called");
+//        return builder.build();
+//    }
 }
